@@ -1,3 +1,4 @@
+/*3. Dado el pto (x,y), y la recta y=2x+3, determinar si el punto pertenece o no a la recta */
 import java.util.Scanner;
 
 public class Ejercicio3 {
@@ -11,10 +12,9 @@ public class Ejercicio3 {
 
             if (2 * coordenadaX + 3 != coordenadaY) {
                 System.out.println("El punto no pertenece a la ecuación de la recta ");
-            }else{
+            } else {
                 System.out.println("El punto  pertenece a la ecuación de la recta");
             }
         }
     }
 }
-
